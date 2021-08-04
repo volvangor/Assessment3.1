@@ -67,7 +67,7 @@ for (let i = 0; i < 50000; i++) {
 
 const geometry = new THREE.BufferGeometry();
 geometry.setAttribute("position", new THREE.Float32BufferAttribute(vertices, 3));
-const material = new THREE.PointsMaterial({color: "#ffffff"});
+const material = new THREE.PointsMaterial({color: "#FFF8E7"});
 material.size = 5;
 const points = new THREE.Points(geometry, material);
 scene.add(points);
